@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+    <!-- Heading with ID   -->
+    <h1 id="main-title">Welcome to My Website</h1>
+
+    <!-- Paragraph with class -->
+    <p class="intro">This is a simple paragraph introducing my page.</p>
+
+    <!-- Image with src, alt, width, and height -->
+    <img src="C:\Users\Dell\OneDrive\Pictures\Screenshots\Screenshot 2024-11-08 021113.png" alt="Sample Image" width="200" height="150">
+
+    <!-- Link with href, target, and title -->
+    <p>Visit: 
+        <a href="https://www.google.com" target="_blank" title="Go to Google">Google</a>
+    </p>
+
+    <!-- Table with border and cellpadding -->
+    <h2>Student Marks</h2>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Name</th>
+            <th>Math</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>Ravi</td>
+            <td>85</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>Sita</td>
+            <td>90</td>
+            <td>88</td>
+        </tr>
+    </table>
+
+    <!-- Form with various attributes -->
+    <h2>Contact Form</h2>
+    <form action="#" method="post">
+        <!-- Input with placeholder and name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="username" placeholder="Enter your name"><br><br>
+
+        <!-- Email input with required -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Radio buttons with value -->
+        Gender:
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <!-- Checkboxes -->
+        Subjects:
+        <input type="checkbox" name="subject" value="math"> Math
+        <input type="checkbox" name="subject" value="science"> Science<br><br>
+
+        <!-- Textarea with rows and cols -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" rows="4" cols="40" placeholder="Write your message here..."></textarea><br><br>
+
+        <!-- Dropdown with value -->
+        Country:
+        <select name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+        </select><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
